@@ -1,1 +1,32 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --background_image:
+        repeating-linear-gradient(90deg, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+        repeating-linear-gradient(180deg, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+        linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+    --main_font: 'Inter-Variable';
+    --accent_font: 'PressStart2P';
+    --font_weight_l: 700;
+    --font_weight_m: 400;
+    /* Гапы */
+    --gap_xs: 8px;
+    --gap_s: 20px;
+    --gap_m: 25px;
+    --gap_l: 30px;
+    --gap_xl: 50px;
+    /* Палитра */
+    --border_color: #000;
+    --decoration_border_color: #fff;
+    --accent_color: #000;
+    --background_card_color: #fff;
+    --contour_color: #000;
+    --animation_fill_color: red;
+    /* Размеры */
+    --clamp: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem);
+    --size_s: 21px;
+    --size_m: 28px;
+    --size_l: 38px;
+    --size_xl: 39px;
+    /* Другое */
+    --decoration_position: 25px;
+}
